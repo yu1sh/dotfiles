@@ -1,8 +1,208 @@
-model = "gpt-5.1-codex"
-model_reasoning_effort = "high"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
+personality = "pragmatic"
+service_tier = "default"
 [projects."/home/u3sound"]
 trust_level = "trusted"
-network_access = true
+
+[projects."/home/u3sound/IPUT/devpro3"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/Cyber-Security/exercise5"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/data_analysis"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/IoTSysDev2"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Projects/type-script-practice/lms-totp-extension"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-06-01/minecraft-java-edition-mod-minecraft-npc"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Projects/RealityMinecraft"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/Cyber-Security"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/IoTSysDev2/reality-authenticator"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-06-08/codexdesktop-vscode-devcontainer"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/iot-dev-pro-3-g-08b-work"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/server_net"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/IoTSysDev2/12"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-06-29/files-mentioned-by-the-user-lms"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-07-01/https-coolors-co-palette-386641-6a994e"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-07-04/pc-ncdu"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/job_hunting"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/IoTSysDev2/reality-authenticator_feat"]
+trust_level = "trusted"
+
+[projects."/run/media/u3sound/SanDisk1TB/臨地実務実習Ⅰ/香川県善通寺市/衛星写真/R7"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/IoTSysDev2/14"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Downloads"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Downloads/work"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/friends/nami/devpro_team"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/IPUT/server_net/final"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-07-31/new-chat"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-07-31/new-chat-2"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-08-06/de"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/debian-server管理"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Projects/RealityMinecraftMod"]
+trust_level = "trusted"
+
+[projects."/home/u3sound/Documents/Codex/2026-08-14/gen"]
+trust_level = "trusted"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 4
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."browser-use@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."read-aloud@openai-bundled"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[marketplaces.openai-bundled]
+last_updated = "2026-08-12T08:28:53Z"
+source_type = "local"
+source = "/home/u3sound/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-08-13T06:53:59Z"
+source_type = "local"
+source = "/home/u3sound/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
 
 [features]
-web_search_request = true
+memories = false
+js_repl = false
+chronicle = false
+
+[memories]
+generate_memories = false
+use_memories = false
+disable_on_external_context = false
+
+[desktop]
+ambient-suggestions-enabled = false
+composerEnterBehavior = "cmdAlways"
+preventSleepWhileRunning = true
+keepRemoteControlAwakeWhilePluggedIn = true
+selected-avatar-id = "bsod"
+conversationDetailMode = "STEPS_COMMANDS"
+followUpQueueMode = "queue"
+show-context-window-usage = true
+hotkey-window-projectless-default-enabled = true
+notifications-turn-mode = "always"
+usePointerCursors = true
+appearanceDarkCodeThemeId = "material"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]
+
+[desktop.open-in-target-preferences]
+global = "systemDefault"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#80cbc4"
+contrast = 60
+ink = "#eeffff"
+opaqueWindows = true
+surface = "#212121"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#c3e88d"
+diffRemoved = "#f07178"
+skill = "#c792ea"
+
+[mcp_servers.node_repl]
+args = []
+command = "/opt/codex-desktop/resources/node_repl"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = ""
+NODE_REPL_NODE_PATH = "/opt/codex-desktop/resources/node-runtime/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/home/u3sound/.codex"
+CODEX_HOME = "/home/u3sound/.codex"
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "6d25aa7656feac858f3a3bdaea5bcbab0dbfd426c9de8e6931ce90c399ee8e4f,c8b7e809d7cf9e20a57123b2530d476ccec9a01a6230a7b2b924fea7d94d7f4a,505eba02c6eed6bcc3f2883e6c705c3377eef8c172bb2d99c909134b0da6e57d,0c77a3b75646e46fa857011b4cde14be2f580b5655461b7c0aabf54f86fc6781"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.707.31428"
+
+[mcp_servers.node_repl.tools]
+
+[mcp_servers.node_repl.tools.js]
+approval_mode = "approve"
